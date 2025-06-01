@@ -20,7 +20,7 @@ export default function MobileLogoCard() {
         className="bg-white/10 border border-white/20 backdrop-blur-lg shadow-2xl rounded-2xl p-8 md:p-12 max-w-md w-full text-center transform hover:scale-105 transition-all duration-500"
       >
         <img
-          src="/broadband/midcomobile.png"
+          src="/broadband/midcomobile1.png"
           alt="Midco Mobile Logo"
           className="w-52 md:w-64 mx-auto mb-6 drop-shadow-lg"
         />
