@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+
+/* Only if needed for additional animation overrides */
+@layer utilities {
+  .animate-scrollBg {
+    background-size: 100% 200%;
+  }
+}
+@keyframes gradientBg {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-gradientBg {
+  background-size: 200% 200%;
+  animation: gradientBg 8s ease infinite;
+}
