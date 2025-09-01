@@ -41,25 +41,25 @@ export default function PlanRates() {
   const plansData = [
     {
       id: 1,
-      name: 'Midco Starter',
+      name: 'Starter',
       price: billingCycle === 'monthly' ? 49 : 490,
       features: ['Up to 100 Mbps', 'Unlimited Data', 'No Contracts']
     },
     {
       id: 2,
-      name: 'Midco Plus',
+      name: 'Plus',
       price: billingCycle === 'monthly' ? 69 : 690,
       features: ['Up to 300 Mbps', 'Unlimited Data', 'Whole Home Wi-Fi']
     },
     {
       id: 3,
-      name: 'Midco Ultra',
+      name: 'Ultra',
       price: billingCycle === 'monthly' ? 99 : 990,
       features: ['Up to 600 Mbps', 'Unlimited Data', 'Advanced Security']
     },
     {
       id: 4,
-      name: 'Midco Gig',
+      name: 'Gig',
       price: billingCycle === 'monthly' ? 119 : 1190,
       features: ['Up to 1 Gbps', 'Unlimited Data', 'Premium Support']
     },
